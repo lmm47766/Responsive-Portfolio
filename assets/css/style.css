@@ -1,0 +1,566 @@
+/* Nav Bar CSS*/
+
+body {
+	background-color: #f2f7ff;
+	margin: 0;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	box-sizing: border-box;
+	border: 0;
+	padding: 0;
+	/*position: static;*/
+	width: 100%
+
+}
+
+
+
+h1{
+
+	background:#4aaaa5;
+	color: white;
+	margin: 10px 0 0 0;
+	padding: 20px;
+	float: left;
+	height: 25px;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+nav {
+	padding: 0px;
+	border: 0;
+	height: 75px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.nav {
+	float: right;
+	padding:15px 0px 0 0;
+	margin: 10px 0 0 0;
+	border: 0;
+	font-size: 18px;
+	color: #cccccc;
+	font-weight: normal;
+
+}
+
+.navBar {
+	margin: 0;
+	width: 100%;
+	background-color: #ffffff;
+	border: 0px;
+	border-bottom: 2px;
+	border-style: solid;
+    border-color: #cccccc;
+}
+
+.navHeader{
+	padding: 7px;
+	color: #cccccc;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+
+/* Main Section CSS*/
+
+.entireContent{
+	width: 960px;
+	margin: 20px auto;
+	overflow: auto;
+
+}
+
+.mainSection{
+	background: #ffffff;
+	width: 650px;
+	box-sizing: border-box;
+	float: left;
+	padding: 25px;
+	border: 1px;
+	border-color: #dddddd;
+	border-style: solid;
+	position: relative;
+}
+
+#self{
+	width: 290px;
+	height: 230px;
+	float: left;
+	margin-top: 10px;
+	padding-right: 25px;
+
+}
+
+#bio{
+	font-size: 20px;
+	color: gray;
+	font-weight: normal;
+	line-height: 33px;
+	margin-top: 0;
+
+
+}
+
+h2{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#contact{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+
+/* Side Bar CSS */
+
+.sideBar {
+	background-color: #ffffff;
+	width: 270px;
+	height: 175px;
+	box-sizing: border-box;
+	float: right;
+	padding: 15px;
+	border: 1px;
+	border-color: #dddddd;
+	border-style: solid;
+
+}
+
+#contact{
+	color: #4aaaa5;
+	text-align: center;
+	padding: 0;
+	margin: 5px;
+}
+
+#gitHub{
+	box-sizing: border-box;
+	height: 70px;
+	width: 33.33333%;
+	margin-top: 15px;
+	float: left;
+}
+
+#linkedIn{
+	box-sizing: border-box;
+	height: 70px;
+	width: 33.33333%;
+	margin-top: 15px;
+	float: left;
+
+}
+
+#stackOverflow{
+	box-sizing: border-box;
+	height: 70px;
+	width: 33.33333%;
+	margin-top: 15px;
+	float: right;
+	border-top:5px;
+	padding: 3.5px;
+}
+
+
+/* Footer CSS*/
+footer {
+	color: lightgray;
+	clear: both;
+	background-color: #666666;
+	height: 35px;
+	text-align: center;
+/*	box-sizing: border-box;*/
+	padding: 17px;
+	font-size: 12px;
+	border: 0;
+	margin:0;
+	/*position: absolute;*/
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-top: 12px solid #4aaaa5;
+	
+}
+
+
+
+
+
+
+/* Contact CSS    */
+form{
+	font-size: 18px;
+	color: gray;
+}
+
+#name {
+	width: 97%;
+	height: 25px;
+	padding: 5px;
+	font-size: 16px;
+}
+
+#email {
+	width: 97%;
+	height: 25px;
+	padding: 5px;
+	font-size: 16px;	
+}
+
+
+#message {
+	/*color:  #777777;*/
+	border: 0.05px solid lightgray;
+}
+
+#button{
+	background-color:#4aaaa5;
+	width: 100px;
+	height: 40px;
+	border: none;
+	margin-top: 15px;
+	color:white;
+	font-size: 16px;
+	/*text-decoration: none;*/
+}
+
+#btn{
+	text-decoration: none;
+	color: white;
+}
+
+
+/*Porfolio CSS*/
+
+
+.image{
+	width: 275px;
+	height: 200px;
+}
+
+
+.imageText{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    background-color: #4aaaa5;
+}
+
+#image1{
+	float:left;
+	margin: 20px 20px 20px 0px;
+
+}
+
+#text1{
+    width: 42.5%;
+    top: 225px;
+}
+
+#image2{
+	float:right;
+	margin: 20px 0px 20px 20px;
+}
+
+#text2{
+    width: 42.5%;
+    right: 25px;
+    bottom: 520px;
+}
+
+#image3{
+	float:left;
+	margin: 20px 20px 20px 0px;
+}
+
+#text3{
+    width: 42.5%;
+    left: 25px;
+    bottom: 290px;
+}
+
+#image4{
+	float:right;
+	margin: 20px 0px 20px 20px;
+}
+
+#text4{
+	width: 42.5%;
+    right: 25px;
+    bottom: 290px;
+}
+
+#image5{
+	float:left;
+	margin: 20px 20px 20px 0px;
+}
+
+#text5{
+	width: 42.5%;
+    left: 25px;
+    bottom: 50px;
+}
+
+
+/* 980px Media Query*/
+@media screen and (max-width: 980px) {
+
+	nav{
+		width: 70%;
+	}
+
+	.entireContent {
+		width: 70%;
+	}
+
+	.mainSection{
+		width: 65%;
+		padding: 20px;
+	}
+
+	.image{
+		width: 100%;
+		height: 275px;
+	}
+
+	#text1, #text2,#text3,#text4,#text5 {
+	width: 91%;
+	left: 20px;
+	}
+
+	#text1 {
+		top: 303px;
+	}
+
+	#text2 {
+		top: 618px;
+		height: 20px;
+	}
+
+	#text3 {
+		top: 933px;
+		height: 20px;
+	}		
+
+	#text4 {
+		top: 1248px;
+		height: 20px;
+	}
+
+	#text4 {
+		top: 1563px;
+		height: 20px;
+	}
+
+
+	#self {
+		width: 100%;
+		height: 325px;
+		margin: 20px 0;
+		padding-right: 25px;
+
+	}
+
+	.sideBar{
+		width: 30%;
+		height: 150px;
+
+	}	
+
+	#gitHub,#linkedIn,#stackOverflow {
+		height: 60px;
+		margin-top: 10px;
+	}	
+
+
+	#message {
+		width: 99%;
+	}	
+
+	footer{
+		width: 96.5%;
+	}
+
+
+/* 768px Media Query*/
+@media screen and (max-width: 768px) {
+
+	nav{
+		width: 100%;
+	}
+
+	.nav{
+		margin: 10px 25px 0 0;
+	}
+
+	h1{
+		margin-left: 15px;
+	}
+
+	.entireContent {
+		width: 96%;
+
+	}
+
+	.mainSection{
+		width: 100%;
+		margin: 15px 0;
+	}
+
+	#self{
+		width: 45%;
+		height: 250px;
+	}
+
+	.sideBar{
+		margin: 15px 0;
+		clear: both;
+		width: 100%;
+		float: left;
+	}
+
+	#gitHub,#linkedIn,#stackOverflow {
+		height: 70px;
+		width: 70px;
+		float: left;
+	}
+
+
+	#contact {
+		text-align: left;
+	}
+
+	.image{
+		width: 320px;
+		height: 250px;
+	}	
+
+	#text1, #text2,#text3,#text4,#text5 {
+		width: 43.5%;
+	}
+
+	#text1 {
+		top:270px;
+	}
+
+	#text2 {
+		left: 396px;
+    	top:270px;
+	}
+
+	#text3 {
+	    left: 20px;
+	    top: 560px;
+	}
+
+	#text4 {
+		left: 396px;
+    	top: 560px;
+	}
+
+	#text5 {
+	    left: 20px;
+	    bottom: 40px;
+	}
+
+	#message {
+		width: 98.5%;
+	}
+
+
+
+	footer{
+		width: 100%;
+		padding-left: 0;
+		padding: 10px 0;
+	}
+
+   
+}
+
+@media screen and (max-width: 640px) {
+	h1{
+		width: 100%;
+		margin: 0;
+		float: none;
+		padding: 20px 0;
+	}
+
+	nav{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.nav {
+		background: white;
+		float: none;
+		width: 95.5%;
+		text-align: center;
+		padding: 15px;
+		margin: 0;
+	}
+
+	.navHeader{
+		padding: 15px 65px;
+	}
+
+	.entireContent {
+		width: 90%;
+
+	}
+
+	#self {
+		width: 100%;
+		height: 350px;
+	}
+
+	.image{
+		width: 100%;
+		height: 350px;
+	}	
+
+	#text1, #text2,#text3,#text4,#text5 {
+		width: 93%;
+	}	
+
+	#text1 {
+		top:380px;
+	}
+
+	#text2 {
+    	top:770px;
+    	left: 20px;
+	}
+
+	#text3 {
+	    top: 1160px;
+	    left: 20px;
+	}
+
+	#text4 {
+    	top: 1550px;
+    	left: 20px;
+	}
+
+	#text5 {
+		bottom: 30px;
+	    left: 20px;
+	}	
+
+}	
+
+
+
+
+
+
+
+
